@@ -1,0 +1,13 @@
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\bin\Debug\netcoreapp3.1\AgendaContactoV1.exe
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\bin\Debug\netcoreapp3.1\AgendaContactoV1.deps.json
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\bin\Debug\netcoreapp3.1\AgendaContactoV1.runtimeconfig.json
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\bin\Debug\netcoreapp3.1\AgendaContactoV1.runtimeconfig.dev.json
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\bin\Debug\netcoreapp3.1\AgendaContactoV1.dll
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\bin\Debug\netcoreapp3.1\AgendaContactoV1.pdb
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\obj\Debug\netcoreapp3.1\AgendaContactoV1.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\obj\Debug\netcoreapp3.1\AgendaContactoV1.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\obj\Debug\netcoreapp3.1\AgendaContactoV1.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\obj\Debug\netcoreapp3.1\AgendaContactoV1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\obj\Debug\netcoreapp3.1\AgendaContactoV1.dll
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\obj\Debug\netcoreapp3.1\AgendaContactoV1.pdb
+C:\Users\Administrador\source\repos\AgendaContactoV1\AgendaContactoV1\obj\Debug\netcoreapp3.1\AgendaContactoV1.genruntimeconfig.cache
