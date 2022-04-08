@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\bin\Debug\netcoreapp3.1\Tablero de tareas.exe
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\bin\Debug\netcoreapp3.1\Tablero de tareas.deps.json
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\bin\Debug\netcoreapp3.1\Tablero de tareas.runtimeconfig.json
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\bin\Debug\netcoreapp3.1\Tablero de tareas.runtimeconfig.dev.json
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\bin\Debug\netcoreapp3.1\Tablero de tareas.dll
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\bin\Debug\netcoreapp3.1\Tablero de tareas.pdb
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\obj\Debug\netcoreapp3.1\Tablero de tareas.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\obj\Debug\netcoreapp3.1\Tablero de tareas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\obj\Debug\netcoreapp3.1\Tablero de tareas.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\obj\Debug\netcoreapp3.1\Tablero de tareas.AssemblyInfo.cs
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\obj\Debug\netcoreapp3.1\Tablero de tareas.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\obj\Debug\netcoreapp3.1\Tablero de tareas.dll
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\obj\Debug\netcoreapp3.1\Tablero de tareas.pdb
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Tablero de tareas\Tablero de tareas\obj\Debug\netcoreapp3.1\Tablero de tareas.genruntimeconfig.cache

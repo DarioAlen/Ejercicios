@@ -6,7 +6,7 @@ namespace AgendaContactoV1
 {
     class Contacto
     {
-        private int _codigo = 100;
+        private int _codigo;
         private string _nombre;
         private string _apellido;
         private string _telefono;
@@ -46,12 +46,12 @@ namespace AgendaContactoV1
 
         public int AutoIncrementar()
         {
-            return _codigo = _codigo + 1;
+            return _codigo++;
         }
 
-        public int MostrarAgenda()
+        public string MostrarContacto()
         {
-            return _codigo; //+  _nombre.ToString() + "/n" + _apellido.ToString() + "/n" + _telefono + "/n" + _direccion + _fechaNacimiento.ToString();
+            return _codigo + " " +  _nombre.ToString()+ " " + _apellido.ToString() + " " + _telefono.ToString() + " " +_direccion + " " + _fechaNacimiento.ToString() + " ";
         }
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurant.Dominio\bin\Debug\Restaurant.Dominio.dll
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurant.Dominio\bin\Debug\Restaurant.Dominio.pdb
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurant.Dominio\obj\Debug\Restaurant.Dominio.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurant.Dominio\obj\Debug\Restaurant.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurant.Dominio\obj\Debug\Restaurant.Dominio.dll
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurant.Dominio\obj\Debug\Restaurant.Dominio.pdb

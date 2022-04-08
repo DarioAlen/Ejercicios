@@ -92,7 +92,7 @@ namespace AgendaContactoV1
             string retorno = "";
             foreach (Contacto agenda in _contactos)
             {
-                retorno = retorno + agenda.MostrarAgenda();
+                retorno = retorno + agenda.MostrarContacto();
             }
             return retorno;
         }

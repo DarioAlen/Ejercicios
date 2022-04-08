@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Tablero de tareas\\Tablero de tareas\\Tablero de tareas.csproj",
+      "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitHub\\Ejercicios\\Tablero de tareas\\Tablero de tareas\\Tablero de tareas.csproj",
       "projectName": "Tablero de tareas",
-      "projectPath": "C:\\Users\\Administrador\\source\\repos\\Tablero de tareas\\Tablero de tareas\\Tablero de tareas.csproj",
+      "projectPath": "C:\\Users\\Administrador\\Documents\\GitHub\\Ejercicios\\Tablero de tareas\\Tablero de tareas\\Tablero de tareas.csproj",
       "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrador\\source\\repos\\Tablero de tareas\\Tablero de tareas\\obj\\",
+      "outputPath": "C:\\Users\\Administrador\\Documents\\GitHub\\Ejercicios\\Tablero de tareas\\Tablero de tareas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.212\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

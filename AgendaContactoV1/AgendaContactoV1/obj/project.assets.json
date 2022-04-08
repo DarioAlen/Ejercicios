@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\AgendaContactoV1\\AgendaContactoV1\\AgendaContactoV1.csproj",
+      "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitHub\\Ejercicios\\AgendaContactoV1\\AgendaContactoV1\\AgendaContactoV1.csproj",
       "projectName": "AgendaContactoV1",
-      "projectPath": "C:\\Users\\Administrador\\source\\repos\\AgendaContactoV1\\AgendaContactoV1\\AgendaContactoV1.csproj",
+      "projectPath": "C:\\Users\\Administrador\\Documents\\GitHub\\Ejercicios\\AgendaContactoV1\\AgendaContactoV1\\AgendaContactoV1.csproj",
       "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrador\\source\\repos\\AgendaContactoV1\\AgendaContactoV1\\obj\\",
+      "outputPath": "C:\\Users\\Administrador\\Documents\\GitHub\\Ejercicios\\AgendaContactoV1\\AgendaContactoV1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.212\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

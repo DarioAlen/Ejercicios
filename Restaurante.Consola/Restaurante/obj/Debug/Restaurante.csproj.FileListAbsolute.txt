@@ -1,0 +1,10 @@
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\bin\Debug\Restaurante.exe.config
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\bin\Debug\Restaurante.exe
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\bin\Debug\Restaurante.pdb
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\bin\Debug\Restaurant.Dominio.dll
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\bin\Debug\Restaurant.Dominio.pdb
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\obj\Debug\Restaurante.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\obj\Debug\Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\obj\Debug\Restaurante.csproj.CopyComplete
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\obj\Debug\Restaurante.exe
+C:\Users\Administrador\source\repos\Restaurante.Consola\Restaurante\obj\Debug\Restaurante.pdb

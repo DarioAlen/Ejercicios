@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Tablero_de_tareas
 {
-    class Tarea
+   public class Tarea
     {
-        Tablero tableroconcreto;
+       
         private int _codigo_tarea;
         private string _descripción;
         private string _estado;
@@ -14,19 +14,20 @@ namespace Tablero_de_tareas
         private DateTime _fechaAlta;
         private DateTime _realizacion;
 
-        public Tarea(string descripción, string estado, int orden, DateTime fechaAlta, DateTime realizacion)
+        public Tarea(int codigo, string descripción, string estado, int orden, DateTime realizacion)
         {
-            _codigo_tarea = tableroconcreto.AsignadorNumeroSecuecial();
+            _codigo_tarea = codigo;
             _descripción = descripción;
             _estado = estado;
             _orden = orden;
-            _fechaAlta = fechaAlta;
+            _fechaAlta = DateTime.Now;
             _realizacion = realizacion;
         }
 
-        public int codigo_tarea
+        internal int codigo_tarea
         {
             get { return _codigo_tarea; }
+            set { _codigo_tarea = value; }
         }
         public string descripcion
         {
@@ -48,6 +49,11 @@ namespace Tablero_de_tareas
         public DateTime realizada
         {
             get { return _realizacion; }
+        }
+
+        public string MostrarTarea()
+        {
+            return _codigo_tarea.ToString() + " " + _descripción.ToString() + " "; 
         }
     }
 }
