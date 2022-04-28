@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facultad.Consola", "Facultad.Consola\Facultad.Consola.csproj", "{8D3344A0-B246-4538-81CB-5B133AF1BD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facultad.Negocio", "Facultad.Negocio\Facultad.Negocio.csproj", "{805C72F7-C3C2-401B-AF5F-40C79AF5047D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D3344A0-B246-4538-81CB-5B133AF1BD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3344A0-B246-4538-81CB-5B133AF1BD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3344A0-B246-4538-81CB-5B133AF1BD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3344A0-B246-4538-81CB-5B133AF1BD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805C72F7-C3C2-401B-AF5F-40C79AF5047D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805C72F7-C3C2-401B-AF5F-40C79AF5047D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805C72F7-C3C2-401B-AF5F-40C79AF5047D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805C72F7-C3C2-401B-AF5F-40C79AF5047D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D80744A5-9EA6-4A86-B088-0D91BFE0C5E3}
+	EndGlobalSection
+EndGlobal
