@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Tablero_de_tareas
 {
-    class Tablero
+   public abstract class Tablero
     {
         private string _titulo;
         private string _descripcion;
@@ -13,6 +13,7 @@ namespace Tablero_de_tareas
         private DateTime _fechainicioProyeto;
         private Tarea _tarea_concreta;
         private int _ultimoNumeroDeTarea;
+        private string _estado;
 
         public Tablero(string titulo, string descripcion, DateTime fechainicioProyeto)
         {
@@ -101,7 +102,25 @@ namespace Tablero_de_tareas
             return retorno;
         }
 
-        //+ " " + tarea.descripcion.ToString() + " " + tarea.estado.ToString() + " " + tarea.orden.ToString() + " ";
+        //+ " " + tarea.descripcion.ToString() + " " + tarea.estado.ToString() + " " + tarea.orden.ToString() + " ";}
+
+
+        //Apuntes clase 08/04/22. Polimorfismo
+
+        //La clase tarea nunca estará instanciada.
+        public string Estado
+        {
+            get { return _estado; }
+
+            set { _estado = value; }
+        }
+
+       
+        protected bool IsFinalizada()
+        {
+            return (Estado == "Finalizada");   
+        }
+
 
     }
 }

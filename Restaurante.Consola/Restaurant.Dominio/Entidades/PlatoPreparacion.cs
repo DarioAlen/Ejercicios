@@ -53,5 +53,10 @@ namespace Restaurant.Dominio.Entidades
             }
             return _salida;
         }
+
+        public override string MostrarPlato()
+        {
+            return base.CodigoPlato + base.Descripcion + Preparacion;
+        }
     }
 }

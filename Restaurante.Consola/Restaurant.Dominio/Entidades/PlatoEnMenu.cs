@@ -21,7 +21,7 @@ namespace Restaurant.Dominio.Entidades
 
         public override string MostrarPlato()
         {
-            return _codigoPlato.ToString() + " " + _precio.ToString();
+            return base.CodigoPlato + base.Descripcion + " " + _precio.ToString();
         }
         //Lo que no entiendo es como se iplementa esto. Es como si los datos se fueran llenando pero en cascada.
 
