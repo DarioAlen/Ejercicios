@@ -45,7 +45,6 @@ namespace Facultad.Negocio.Entidades
                 {
                
                     posicion = _alumnos.IndexOf(al);
-                    _alumnos.RemoveAt(posicion);
                 }
 
                 else 
@@ -53,6 +52,7 @@ namespace Facultad.Negocio.Entidades
                     throw new AlumnoInexistenteException(); 
                 }
             }
+            _alumnos.RemoveAt(posicion);
         }
 
         public void EliminarEmpleado(int codigo)
@@ -67,7 +67,7 @@ namespace Facultad.Negocio.Entidades
                 {
                     empladoObtenido = em;
                     posicion = _empleados.IndexOf(em);
-                    _empleados.RemoveAt(posicion);
+                    
                 }
 
                 else
@@ -75,6 +75,7 @@ namespace Facultad.Negocio.Entidades
                     throw new EmpleadoInexistenteException();
                 }
             }
+            _empleados.RemoveAt(posicion);
         }
 
         public void ModificarEmpleado(Empleado emp)
@@ -86,11 +87,10 @@ namespace Facultad.Negocio.Entidades
                 {
                     empleadoAModificado = new Empleado(em.Legajo, emp.Nombre, emp.FechaNac, emp.Apellido, emp.FechaIngreso);
 
-                    EliminarEmpleado(emp.Legajo);
-
-                    AgregarEmpleado(empleadoAModificado);
                 }
             }
+                    EliminarEmpleado(emp.Legajo);
+                    AgregarEmpleado(empleadoAModificado);
         }
 
         public List<Alumno> TraerAlumnos()
