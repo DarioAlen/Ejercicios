@@ -1,0 +1,7 @@
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Facultad\Facultad.Consola\bin\Debug\Facultad.Consola.exe.config
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Facultad\Facultad.Consola\bin\Debug\Facultad.Consola.exe
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Facultad\Facultad.Consola\bin\Debug\Facultad.Consola.pdb
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Facultad\Facultad.Consola\obj\Debug\Facultad.Consola.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Facultad\Facultad.Consola\obj\Debug\Facultad.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Facultad\Facultad.Consola\obj\Debug\Facultad.Consola.exe
+C:\Users\Administrador\Documents\GitHub\Ejercicios\Facultad\Facultad.Consola\obj\Debug\Facultad.Consola.pdb
