@@ -1,0 +1,11 @@
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\bin\Debug\HotelWEB.Negocio.dll
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\bin\Debug\HotelWEB.Negocio.pdb
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\bin\Debug\HotelWEB.Clases.dll
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\bin\Debug\HotelWEB.Datos.dll
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\bin\Debug\HotelWEB.Clases.pdb
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\bin\Debug\HotelWEB.Datos.pdb
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\obj\Debug\HotelWEB.Negocio.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\obj\Debug\HotelWEB.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\obj\Debug\HotelWEB.Negocio.csproj.CopyComplete
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\obj\Debug\HotelWEB.Negocio.dll
+C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Negocio\obj\Debug\HotelWEB.Negocio.pdb

@@ -1,0 +1,44 @@
+﻿@model List<HotelWEB.Clases.Cliente>
+
+@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<!--<p>Use this area to provide additional information.</p>-->
+ 
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Fecha de alta</th>
+            <th>Activo</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+            <th>Email</th>
+            <th>Fecha de nacimiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (HotelWEB.Clases.Cliente cliente in Model)
+        {
+        <tr>
+
+            <td>@cliente.ID.ToString()</td>
+            <td>@cliente.FechaAlta.ToString()</td>
+            <td>@cliente.Activo.ToString()</td>
+            <td>@cliente.Nombre</td>
+            <td>@cliente.Apellido</td>
+            <td>@cliente.Direccion</td>
+            <td>@cliente.Telefono</td>
+            <td>@cliente.Email</td>
+            <td>@cliente.FechaNacimiento.ToString()</td>
+
+        </tr>    
+    }
+
+        <tbody>
+    </table>
