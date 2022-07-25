@@ -10,7 +10,7 @@ namespace HotelWEB.Datos.Utilidades
 {
     public class AccesoDatos
     {
-        private SqlConnection conn = new SqlConnection("Data Source=AR020000934365\\SQLEXPRESS;Initial Catalog=HotelesRichTexan;Integrated Security=True");
+        private SqlConnection conn = new SqlConnection("Data Source=TU EQUIPO\\SQLEXPRESS;Initial Catalog=HotelesRichTexan;Integrated Security=True");
 
         #region métodos para insertar
         public void InsertarCliente(Cliente cli)
