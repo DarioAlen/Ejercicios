@@ -22,39 +22,28 @@ namespace proyectoWEB.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            hn = new HotelNegocio();
             lst = hn.RetornarClientes();
 
             return View(lst);
         }
 
-        public ActionResult DesplegableDePrueba()
-        {
-            lstDesplegables = hn.RetornarClientes();
-            return View(lstDesplegables);
-        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-            lstDesplegables = hn.RetornarClientes();
-            
 
-            List<SelectListItem> items = lstDesplegables.ConvertAll(d =>
-            {
-                return new SelectListItem()
-                {
-                    Text = d.Nombre.ToString(),
-                Value = d.ID.ToString(),
-                Selected = false 
-            };
-            });
-
-            ViewBag.items = items;
             return View();
         }
 
         public ActionResult Mision()
         {
             return View();
+        }
+
+        public ActionResult DesplegableDePrueba()
+        {
+            lstDesplegables = hn.RetornarClientes();
+            return View(lstDesplegables);
         }
     }
 }
