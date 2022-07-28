@@ -1,0 +1,32 @@
+﻿@model List<HotelWEB.Clases.Cliente>
+
+@{
+    ViewBag.Title = "DesplegableDePrueba";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    // List<SelectListItem> items = (List<SelectListItem>)ViewBag.items;
+
+}
+
+<h2>Primer desplegable</h2>
+
+<form action="Mision" name="formulario" method="post">
+    <!-- Campo de texto combinado con lista de opciones -->
+    <input type="text" list="items" />
+    <!-- Lista de opciones -->
+    <datalist id="items">
+
+        @foreach (HotelWEB.Clases.Cliente cliente in Model)
+        {
+            <option value=@cliente.ID>@cliente.Nombre</option>
+        }
+
+    </datalist>
+
+    <asp:ListBox runat="server" id="listado"></asp:ListBox>
+
+    @{
+       
+    }
+    <input type="submit" value="enviar">
+
+</form>
