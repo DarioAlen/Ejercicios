@@ -7,7 +7,7 @@
 <h3>@ViewBag.Message</h3>
 
 <!--<p>Use this area to provide additional information.</p>-->
- 
+
 <table class="table">
     <thead>
         <tr>
@@ -21,24 +21,33 @@
             <th>Email</th>
             <th>Fecha de nacimiento</th>
         </tr>
+
     </thead>
+    <form action="EdicionCliente" name="prueba" formulario" method="post">
     <tbody>
+
         @foreach (HotelWEB.Clases.Cliente cliente in Model)
         {
         <tr>
+            <td><input typeof="number" name="id" readonly="readonly" size="40" style="width:28px" value="@cliente.ID.ToString()" /></td>
+            <td><input typeof="date" name="fechaAlta" readonly="readonly" size="40" style="width:68px" value="@cliente.FechaAlta.ToString()" /></td>
+            <td><input typeof="text" name="activo" readonly="readonly" size="40" style="width:45px" value="@cliente.Activo.ToString()" /></td>
+            <td><input typeof="text" name="nombre" readonly="readonly" size="40" style="width:80px" value="@cliente.Nombre.ToString()" /></td>
+            <td><input typeof="text" name="apellido" readonly="readonly" size="40" style="width:80px" value="@cliente.Apellido.ToString()" /></td>
+            <td><input typeof="text" name="direccion" readonly="readonly" size="40" style="width:120px" value="@cliente.Direccion.ToString()" /></td>
+            <td><input typeof="text" name="telefono" readonly="readonly" size="40" style="width:90px" value="@cliente.Telefono.ToString()" /></td>
+            <td><input typeof="text" name="email" readonly="readonly" size="40" style="width:95px" value="@cliente.Email.ToString()" /></td>
+            <td><input typeof="text" name="fechaNacimiento" readonly="readonly" size="40" style="width:70px" value="@cliente.FechaNacimiento.ToString()" /></td>
+            <td><input type="submit" value="Editar"></td>
 
-            <td>@cliente.ID.ToString()</td>
-            <td>@cliente.FechaAlta.ToString()</td>
-            <td>@cliente.Activo.ToString()</td>
-            <td>@cliente.Nombre</td>
-            <td>@cliente.Apellido</td>
-            <td>@cliente.Direccion</td>
-            <td>@cliente.Telefono</td>
-            <td>@cliente.Email</td>
-            <td>@cliente.FechaNacimiento.ToString()</td>
+        </tr>
 
-        </tr>    
-    }
+        }
 
-        <tbody>
-    </table>
+    </tbody>
+    </form>
+</table>
+<form>
+    <input type="submit" value="prueba">
+    
+    </form>

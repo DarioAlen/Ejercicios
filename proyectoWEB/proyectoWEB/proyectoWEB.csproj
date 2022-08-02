@@ -164,6 +164,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Mision.cshtml" />
     <Content Include="Views\Home\DesplegableDePrueba.cshtml" />
+    <Content Include="Views\Home\EdicionCliente.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

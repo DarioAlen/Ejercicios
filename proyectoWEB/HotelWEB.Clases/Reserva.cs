@@ -15,10 +15,11 @@ namespace HotelWEB.Clases
         private DateTime _fechaEgreso;
         private int _id;
 
-        public Reserva(int idHabitacion, int idCliente, int cantidadHuespedes, DateTime fechaIngreso, DateTime fechaEgreso)
+        public Reserva(int id, int idCliente, int idHabitacion,  int cantidadHuespedes, DateTime fechaIngreso, DateTime fechaEgreso)
         {
-            _idHabitacion = idHabitacion;
+            _id = id;
             _idCliente = idCliente;
+            _idHabitacion = idHabitacion;
             _cantidadHuespedes = cantidadHuespedes;
 
             _fechaIngreso = fechaIngreso;
@@ -35,7 +36,7 @@ namespace HotelWEB.Clases
 
         public override string ToString()
         {
-            return this.IdHabitacion.ToString() + " " + this.IdCliente.ToString() + " " + this.CantidadHuespedes.ToString()
+            return this.Id.ToString() + " " + this.IdCliente.ToString() + " " + this.IdHabitacion.ToString() + " " + " " + this.CantidadHuespedes.ToString()
                 + " " + FechaIngreso.ToString() + " " + this.FechaEgreso.ToString() + " " + this.Id.ToString();
         }
     }

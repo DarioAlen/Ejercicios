@@ -4,3 +4,9 @@ C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Clases\obj\Debug\HotelW
 C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Clases\obj\Debug\HotelWEB.Clases.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Clases\obj\Debug\HotelWEB.Clases.dll
 C:\Users\Administrador\source\repos\proyectoWEB\HotelWEB.Clases\obj\Debug\HotelWEB.Clases.pdb
+C:\Users\Administrador\Documents\GitHub\Ejercicios\proyectoWEB\HotelWEB.Clases\bin\Debug\HotelWEB.Clases.dll
+C:\Users\Administrador\Documents\GitHub\Ejercicios\proyectoWEB\HotelWEB.Clases\bin\Debug\HotelWEB.Clases.pdb
+C:\Users\Administrador\Documents\GitHub\Ejercicios\proyectoWEB\HotelWEB.Clases\obj\Debug\HotelWEB.Clases.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Ejercicios\proyectoWEB\HotelWEB.Clases\obj\Debug\HotelWEB.Clases.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\Ejercicios\proyectoWEB\HotelWEB.Clases\obj\Debug\HotelWEB.Clases.dll
+C:\Users\Administrador\Documents\GitHub\Ejercicios\proyectoWEB\HotelWEB.Clases\obj\Debug\HotelWEB.Clases.pdb

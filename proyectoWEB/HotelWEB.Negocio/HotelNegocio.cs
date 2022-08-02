@@ -9,18 +9,42 @@ namespace HotelWEB.Negocio
 {
     public class HotelNegocio
     {
-        private AccesoDatos accesoDatos;
-        private List<Cliente> listadoClientes;
+        private AccesoDatos _accesoDatos;
+        private List<Cliente> _listadoClientes;
+        private List<Reserva> _listadoReservas;
+        private List<HotelEntidad> _listadoHoteles;
+        private List<Habitacion> _listadoHabitaciones;
         public HotelNegocio()
         {
-            accesoDatos = new AccesoDatos();
+            _accesoDatos = new AccesoDatos();
         }
 
         public List<Cliente> RetornarClientes()
         {
-            listadoClientes = accesoDatos.TraerClientes();
+            _listadoClientes = _accesoDatos.TraerClientes();
 
-            return listadoClientes;
+            return _listadoClientes;
+        }
+
+        public List<Reserva> RetornarReservas()
+        {
+            _listadoReservas = _accesoDatos.TraerReservas();
+
+            return _listadoReservas;
+        }
+
+        public List<HotelEntidad> RetornarHoteles()
+        {
+            _listadoHoteles = _accesoDatos.TraerHoteles();
+
+            return _listadoHoteles;
+        }
+
+        public List<Habitacion> TraerHabitaciones()
+        {
+            _listadoHabitaciones = _accesoDatos.TraerHabitaciones();
+
+            return _listadoHabitaciones;
         }
     }
 }

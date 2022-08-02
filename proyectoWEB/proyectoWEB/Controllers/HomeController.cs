@@ -45,5 +45,20 @@ namespace proyectoWEB.Controllers
             lstDesplegables = hn.RetornarClientes();
             return View(lstDesplegables);
         }
+
+        public ActionResult EdicionCliente()
+        {
+            Cliente cli = new Cliente(Convert.ToInt32(Request.Form["id"]),
+                                      Convert.ToDateTime("7/7/ 2022 00:00:00"),
+                                      false,
+                                      Request.Form["nombre"],
+                                      Request.Form["apellido"],
+                                      Request.Form["direccion"],
+                                      Request.Form["telefono"],
+                                      Request.Form["mail"],
+                                      Convert.ToDateTime("7/7/ 2022 00:00:00")
+                                      );
+            return View(cli);
+        }
     }
 }
