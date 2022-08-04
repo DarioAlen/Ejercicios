@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HotelController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -165,6 +166,9 @@
     <Content Include="Views\Home\Mision.cshtml" />
     <Content Include="Views\Home\DesplegableDePrueba.cshtml" />
     <Content Include="Views\Home\EdicionCliente.cshtml" />
+    <Content Include="Views\Hotel\Index.cshtml" />
+    <Content Include="Views\Hotel\Alta.cshtml" />
+    <Content Include="Views\Home\PlantillaAlta.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -60,5 +60,10 @@ namespace proyectoWEB.Controllers
                                       );
             return View(cli);
         }
+
+        public ActionResult PlantillaAlta()
+        {
+            return View();
+        }
     }
 }
